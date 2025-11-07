@@ -1,0 +1,44 @@
+{
+  "alpha": 0.1,
+  "k_bounds": {
+    "min": 2.0,
+    "max": 4.0
+  },
+  "pico_min": 150.0,
+  "warmup_samples": 300,
+  "cooldown_sec": 7,
+  "last_alert_ts": 1762417005,
+  "bands": [
+    {
+      "name": "band1",
+      "start": "08:00",
+      "end": "12:00",
+      "mu_rms": 90,
+      "sigma_rms": 15,
+      "k": 3.0,
+      "samples": 0
+    },
+    {
+      "name": "band2",
+      "start": "14:00",
+      "end": "20:00",
+      "mu_rms": 110,
+      "sigma_rms": 20,
+      "k": 3.0,
+      "samples": 0
+    },
+    {
+      "name": "band3",
+      "start": "21:00",
+      "end": "05:00",
+      "mu_rms": 6.399982830543465,
+      "sigma_rms": 5.0,
+      "k": 2.0,
+      "samples": 10498
+    }
+  ],
+  "perf": {
+    "fp": 0,
+    "fn": 2
+  }
+}
